@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chat.foundtruck.com.br.foundtruckchat.activity.LoginActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/v_16dp_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.96"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="346dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/v_65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.65"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/v_16dp_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.04"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.47"
+        tools:layout_editor_absoluteY="266dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.04"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.58"
+        tools:layout_editor_absoluteY="329dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.67"
+        tools:layout_editor_absoluteY="380dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.96"
+        tools:layout_editor_absoluteY="544dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7"
+        tools:layout_editor_absoluteY="397dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.24"
+        tools:layout_editor_absoluteY="136dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/login_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/layout_login1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/h_67"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        app:layout_constraintTop_toTopOf="@+id/h_24"
+        app:srcCompat="@drawable/logo_sombra" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="-3dp"
+        android:background="@drawable/round_30dp"
+        android:drawableLeft="@drawable/vtr_arroba"
+        android:drawablePadding="@dimen/pd_icon_right"
+        android:elevation="6dp"
+        android:ems="10"
+        android:hint="@string/lg_email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingStart="@dimen/pd_start_input"
+        android:textColor="@color/darker"
+        android:textColorHint="@color/grey"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        app:layout_constraintTop_toTopOf="@+id/h_47" />
+
+    <EditText
+        android:id="@+id/editSenha"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_30dp"
+        android:drawableLeft="@drawable/vtr_key"
+        android:drawablePadding="@dimen/pd_icon_right"
+        android:elevation="6dp"
+        android:ems="10"
+        android:hint="@string/lg_senha"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/pd_start_input"
+        android:paddingStart="@dimen/pd_start_input"
+        android:textColor="@color/darker"
+        android:textColorHint="@color/grey"
+        android:textSize="24dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        app:layout_constraintTop_toTopOf="@+id/h_58" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorPrimary"
+        android:elevation="6dp"
+        android:text="@string/login_btn_login"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
+        app:layout_constraintRight_toLeftOf="@+id/v_65"
+        app:layout_constraintTop_toTopOf="@+id/h_70" />
+
+    <ImageButton
+        android:id="@+id/btn_facebook"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/vtr_facebook"
+        android:elevation="6dp"
+        android:tint="@color/facebook"
+        app:layout_constraintLeft_toRightOf="@+id/btn_login"
+        app:layout_constraintRight_toLeftOf="@+id/btn_google_plus"
+        app:layout_constraintTop_toTopOf="@+id/h_70" />
+
+    <ImageButton
+        android:id="@+id/btn_google_plus"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/vtr_google_plus"
+        android:elevation="6dp"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        app:layout_constraintTop_toTopOf="@+id/h_70" />
+
+    <TextView
+        android:id="@+id/tv_nao_possui_conta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/lg_nao_possui_conta"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+    <Button
+        android:id="@+id/btn_criar_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        android:elevation="6dp"
+        android:text="@string/btn_criar_conta"
+        android:textColor="@color/darker"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nao_possui_conta" />
+
+</android.support.constraint.ConstraintLayout>

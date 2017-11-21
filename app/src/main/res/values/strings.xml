@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FoundTruck</string>
+    <string name="login_btn_login">LOGIN</string>
+    <string name="lg_email">Email</string>
+    <string name="lg_senha">Senha</string>
+    <string name="lg_nao_possui_conta">Não possui uma conta ainda?</string>
+    <string name="btn_criar_conta">CRIAR CONTA</string>
+    <string name="menu_procurar">Procurar</string>
+    <string name="menu_favoritos">Favoritos</string>
+    <string name="menu_foodtrucks">Foodtrucks</string>
+    <string name="menu_locais">Locais</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_pesquisa">Pesquisa</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <string name="txt_ache_perto">ACHE O FOOD TRUCK MAIS PERTO DE VOCE!</string>
+    <string name="txt_encontre">Encontre uma grande variedade de Food Trucks</string>
+    <string name="cadastro_nome">Nome</string>
+    <string name="cadastro_btn">Cadastrar</string>
+    <string name="cadastro_texto">ENCONTRAR UM FOOD TRUCK NUNCA FOI TÃO FÁCIL !</string>
+    <string name="title_activity_test">test</string>
+    <string name="txt_favoritos">MEUS FAVORITOS</string>
+    <string name="tx_favoritos">FAVORITOS</string>
+    <string name="tx_recomendacoes">RECOMENDAÇÕES</string>
+    <string name="tx_reviews">REVIEWS</string>
+    <string name="title_activity_customized_android_list">CustomizedAndroidListActivity</string>
+</resources>

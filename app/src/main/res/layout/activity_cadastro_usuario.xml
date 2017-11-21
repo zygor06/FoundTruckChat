@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chat.foundtruck.com.br.foundtruckchat.activity.CadastroUsuarioActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/v_16dp_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.96"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="346dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/v_16dp_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.04"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.38"
+        tools:layout_editor_absoluteY="215dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.04"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.24"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.48"
+        tools:layout_editor_absoluteY="272dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.58"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.67"
+        tools:layout_editor_absoluteY="380dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.96"
+        tools:layout_editor_absoluteY="544dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7"
+        tools:layout_editor_absoluteY="397dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="72dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="288dp" />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar">
+    </include>
+
+    <ImageView
+        android:id="@+id/login_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/layout_login1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        app:layout_constraintBottom_toTopOf="@+id/h_67"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        app:layout_constraintTop_toTopOf="@+id/h_24"
+        app:srcCompat="@drawable/logo_sombra" />
+
+    <EditText
+        android:id="@+id/editCadastroEmail"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_30dp"
+        android:drawableLeft="@drawable/vtr_arroba"
+        android:drawablePadding="@dimen/pd_icon_right"
+        android:ems="10"
+        android:hint="@string/lg_email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingStart="@dimen/pd_start_input"
+        android:textColor="@color/darker"
+        android:textColorHint="@color/grey"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        app:layout_constraintTop_toTopOf="@+id/h_47" />
+
+    <EditText
+        android:id="@+id/editCadastroNome"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_30dp"
+        android:drawableLeft="@drawable/vtr_id"
+        android:drawablePadding="@dimen/pd_icon_right"
+        android:ems="10"
+        android:hint="@string/cadastro_nome"
+        android:inputType="text|textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingStart="@dimen/pd_start_input"
+        android:textColor="@color/darker"
+        android:textColorHint="@color/grey"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        app:layout_constraintTop_toTopOf="@+id/h_28" />
+
+    <EditText
+        android:id="@+id/editCadastroSenha"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/round_30dp"
+        android:drawableLeft="@drawable/vtr_key"
+        android:drawablePadding="@dimen/pd_icon_right"
+        android:ems="10"
+        android:hint="@string/lg_senha"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/pd_start_input"
+        android:paddingStart="@dimen/pd_start_input"
+        android:textColor="@color/darker"
+        android:textColorHint="@color/grey"
+        android:textSize="24dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        app:layout_constraintTop_toTopOf="@+id/h_58" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/cadastro_btn"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
+        app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
+        app:layout_constraintTop_toTopOf="@+id/h_70" />
+
+    <TextView
+        android:id="@+id/text_cadastro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/cadastro_texto"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/h_96"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline2"
+        app:layout_constraintRight_toLeftOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/btnCadastrar" />
+
+</android.support.constraint.ConstraintLayout>

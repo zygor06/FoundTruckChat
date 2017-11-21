@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="radius_input">30dp</dimen>
+    <dimen name="input_height">40dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="pd_start_input">25dp</dimen>
+    <dimen name="pd_icon_right">15dp</dimen>
+    <dimen name="icone_input">15dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_14sp">14sp</dimen>
+    <dimen name="text_36sp">36sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="font_14sp">14sp</dimen>
+
+    <dimen name="design_fab_image_size" tools:override="true">36dp</dimen>
+</resources>
