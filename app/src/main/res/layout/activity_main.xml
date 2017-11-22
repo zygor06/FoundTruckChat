@@ -12,11 +12,11 @@
         android:layout_width="match_parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent">
 
+    </include>
 
-
-    <firebaseappv2.hygor.com.br.whatsappfake.helper.SlidingTabLayout
+    <chat.foundtruck.com.br.foundtruckchat.helper.SlidingTabLayout
         android:id="@+id/stl_tabs"
         android:layout_width="0dp"
         android:layout_height="48dp"

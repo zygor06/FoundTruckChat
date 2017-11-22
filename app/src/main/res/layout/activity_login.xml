@@ -238,21 +238,19 @@
 
     <Button
         android:id="@+id/btn_criar_conta"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="0dp"
         android:background="@color/white"
-        android:elevation="6dp"
+        android:elevation="0dp"
+        android:onClick="abrirCadastroUsuario"
         android:text="@string/btn_criar_conta"
         android:textColor="@color/darker"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
         app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
-        app:layout_constraintTop_toBottomOf="@+id/tv_nao_possui_conta"
-        android:onClick="abrirCadastroUsuario"/>
+        app:layout_constraintTop_toBottomOf="@+id/tv_nao_possui_conta" />
 
 </android.support.constraint.ConstraintLayout>

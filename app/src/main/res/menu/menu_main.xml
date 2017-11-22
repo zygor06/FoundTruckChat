@@ -18,13 +18,6 @@
         app:showAsAction="never"/>
 
     <item
-        android:id="@+id/item_pesquisa"
-        android:title="pesquisa"
-        android:orderInCategory="300"
-        app:showAsAction="ifRoom"
-        android:icon="@drawable/vtr_search"/>
-
-    <item
         android:id="@+id/item_add"
         android:title="add"
         android:orderInCategory="400"

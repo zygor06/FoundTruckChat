@@ -4,10 +4,13 @@
     android:layout_height="match_parent"
     tools:context="chat.foundtruck.com.br.foundtruckchat.fragment.ConversasFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ListView
+        android:id="@+id/lv_conversas"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:divider="@color/grey"
+        android:dividerHeight="0.8dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="true" />
 
 </FrameLayout>

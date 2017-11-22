@@ -3,13 +3,16 @@ package chat.foundtruck.com.br.foundtruckchat.activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -36,8 +39,9 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText editEmail;
     private EditText editSenha;
-    private Button btnCadastro;
+    private TextView conta;
     private Button btnLogin;
+    private Button btnCadastro;
 
     private Usuario usuario;
     private FirebaseAuth authenticator;
@@ -53,8 +57,27 @@ public class LoginActivity extends AppCompatActivity {
         //Verifica se o usuário já realizou login anteriormente, e salva os dados
         verificarUsuarioLogado();
 
+        Typeface menu = ResourcesCompat.getFont(this, R.font.menu_regular);
+        Typeface signature = ResourcesCompat.getFont(this, R.font.signage_regular);
+
         editEmail = findViewById(R.id.editEmail);
         editSenha = findViewById(R.id.editSenha);
+        editEmail.setTypeface(menu);
+        editSenha.setTypeface(menu);
+        editSenha.setTextSize(25);
+        editEmail.setTextSize(25);
+
+        conta = findViewById(R.id.tv_nao_possui_conta);
+        conta.setTypeface(menu);
+        conta.setTextSize(28);
+
+        btnLogin = findViewById(R.id.btn_login);
+        btnCadastro = findViewById(R.id.btn_criar_conta);
+
+        btnLogin.setTypeface(signature);
+        btnLogin.setTextSize(28);
+        btnCadastro.setTypeface(signature);
+        btnCadastro.setTextSize(20);
     }
 
     public void logar(View view){

@@ -17,7 +17,7 @@ public class Preferencias {
 
     private final String CHAVE_IDENTIFICADOR = "identificador";
     private final String CHAVE_NOME = "nome";
-    private final String NOME_ARQUIVO = "fakewhatsapp.preferences";
+    private final String NOME_ARQUIVO = "foundtruckchat.preferences";
 
     public Preferencias(Context contextoParametro){
 
@@ -56,7 +56,7 @@ public class Preferencias {
     }
 
     public String getIdentificador(){
-        return preferences.getString(CHAVE_IDENTIFICADOR, null);
+        return preferences.getString(CHAVE_IDENTIFICADOR, "");
     }
     public String getNome(){
         return preferences.getString(CHAVE_NOME, null);

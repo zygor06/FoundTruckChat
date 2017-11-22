@@ -3,10 +3,12 @@ package chat.foundtruck.com.br.foundtruckchat.activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +17,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -51,14 +54,15 @@ public class MainActivity extends AppCompatActivity {
 
         authenticator = ConfiguracaoFireBase.getFirebaseAuth();
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("WhatsApp");
+        toolbar = findViewById(R.id.toolbar);
+
+        toolbar.setTitle("FoundTruck Chat");
         toolbar.setTitleTextColor(Color.WHITE);
         toolbar.setSubtitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
 
-        slidingTabLayout = (SlidingTabLayout) findViewById(R.id.stl_tabs);
-        viewPager = (ViewPager) findViewById(R.id.vp_pagina);
+        slidingTabLayout =findViewById(R.id.stl_tabs);
+        viewPager = findViewById(R.id.vp_pagina);
 
         slidingTabLayout.setDistributeEvenly(true);
         slidingTabLayout.setSelectedIndicatorColors(ContextCompat.getColor(this, R.color.colorAccent));

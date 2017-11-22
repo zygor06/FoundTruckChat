@@ -9,7 +9,6 @@
         tools:context="chat.foundtruck.com.br.foundtruckchat.activity.ConversaActivity">
         tools:layout_editor_absoluteY="0dp"
         tools:layout_editor_absoluteX="0dp">
-
     <include
         android:id="@+id/tb_conversa"
         layout="@layout/toolbar"

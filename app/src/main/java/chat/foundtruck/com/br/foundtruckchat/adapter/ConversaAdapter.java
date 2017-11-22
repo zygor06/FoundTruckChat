@@ -1,8 +1,10 @@
 package chat.foundtruck.com.br.foundtruckchat.adapter;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.content.res.ResourcesCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,8 +47,16 @@ public class ConversaAdapter extends ArrayAdapter<Conversa> {
 
             view = inflater.inflate(R.layout.lista_conversa, parent, false);
 
+            Typeface signature = ResourcesCompat.getFont(context, R.font.signage_regular);
+            Typeface menu = ResourcesCompat.getFont(context, R.font.menu_regular);
+
             TextView nomeConversa = (TextView) view.findViewById(R.id.tv_nomeConversa);
             TextView ultimaMensagem = (TextView) view.findViewById(R.id.tv_ultimaMensagem);
+
+            nomeConversa.setTypeface(signature);
+            nomeConversa.setTextSize(20);
+            ultimaMensagem.setTypeface(menu);
+            ultimaMensagem.setTextSize(20);
 
             Conversa conversa = conversas.get(position);
 

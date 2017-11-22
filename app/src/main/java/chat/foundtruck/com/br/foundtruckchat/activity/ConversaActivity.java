@@ -2,6 +2,7 @@ package chat.foundtruck.com.br.foundtruckchat.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -50,10 +51,12 @@ public class ConversaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conversa);
 
-        toolbar = (Toolbar) findViewById(R.id.tb_conversa);
-        editMensagem = (EditText) findViewById(R.id.edit_mensagem);
-        btEnviar = (ImageButton) findViewById(R.id.btn_enviar);
-        listView = (ListView) findViewById(R.id.lv_conversas);
+        toolbar = findViewById(R.id.tb_conversa);
+        editMensagem = findViewById(R.id.edit_mensagem);
+        btEnviar = findViewById(R.id.btn_enviar);
+        listView = findViewById(R.id.lv_conversas);
+        listView.setDividerHeight(0);
+        listView.setDivider(null);
 
         final Preferencias preferencias = new Preferencias(ConversaActivity.this);
         idUsuarioRemetente = preferencias.getIdentificador();
@@ -71,7 +74,7 @@ public class ConversaActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-        //Monta lisview e adapter
+        //Monta listview e adapter
         mensagens = new ArrayList<>();
         adapter = new MensagemAdapter(ConversaActivity.this, mensagens);
         /*adapter = new ArrayAdapter(
@@ -213,5 +216,16 @@ public class ConversaActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         firebase.removeEventListener(valueEventListenerMensagem);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

@@ -2,6 +2,7 @@ package chat.foundtruck.com.br.foundtruckchat.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.support.v4.app.Fragment;
@@ -63,8 +64,9 @@ public class ConversasFragment extends Fragment {
         conversas = new ArrayList<>();
 
         View view = inflater.inflate(R.layout.fragment_conversas, container, false);
-        listView = (ListView) view.findViewById(R.id.lv_conversas);
-
+        listView = view.findViewById(R.id.lv_conversas);
+        listView.setDividerHeight(0);
+        listView.setDivider(null);
         adapter = new ConversaAdapter(getActivity(), conversas);
         listView.setAdapter(adapter);
 
