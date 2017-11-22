@@ -187,7 +187,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
         app:layout_constraintRight_toLeftOf="@+id/v_65"
-        app:layout_constraintTop_toTopOf="@+id/h_70" />
+        app:layout_constraintTop_toTopOf="@+id/h_70"
+        android:onClick="logar"/>
 
     <ImageButton
         android:id="@+id/btn_facebook"
@@ -202,7 +203,8 @@
         android:tint="@color/facebook"
         app:layout_constraintLeft_toRightOf="@+id/btn_login"
         app:layout_constraintRight_toLeftOf="@+id/btn_google_plus"
-        app:layout_constraintTop_toTopOf="@+id/h_70" />
+        app:layout_constraintTop_toTopOf="@+id/h_70"
+        android:onClick="logar"/>
 
     <ImageButton
         android:id="@+id/btn_google_plus"
@@ -213,7 +215,8 @@
         android:background="@drawable/vtr_google_plus"
         android:elevation="6dp"
         app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
-        app:layout_constraintTop_toTopOf="@+id/h_70" />
+        app:layout_constraintTop_toTopOf="@+id/h_70"
+        android:onClick="logar"/>
 
     <TextView
         android:id="@+id/tv_nao_possui_conta"
@@ -249,6 +252,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
         app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
-        app:layout_constraintTop_toBottomOf="@+id/tv_nao_possui_conta" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_nao_possui_conta"
+        android:onClick="abrirCadastroUsuario"/>
 
 </android.support.constraint.ConstraintLayout>

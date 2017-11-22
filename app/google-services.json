@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "770678261439",
+    "firebase_url": "https://whatsappfake-3d2f7.firebaseio.com",
+    "project_id": "whatsappfake-3d2f7",
+    "storage_bucket": "whatsappfake-3d2f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770678261439:android:317530b38701beb5",
+        "android_client_info": {
+          "package_name": "firebaseappv2.hygor.com.br.whatsappfake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770678261439-saduka5lrmqh56l0ml251pp4aigh0a5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "firebaseappv2.hygor.com.br.whatsappfake",
+            "certificate_hash": "e8742165a9e117f7daa4e4cdaa65245c7c0f28e5"
+          }
+        },
+        {
+          "client_id": "770678261439-ern05qkl5gc0ltcjc7h46c8tfl2s8ug0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmgd141DxFYLUCR4PN7AWR71hm8EINYa0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770678261439-ern05qkl5gc0ltcjc7h46c8tfl2s8ug0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770678261439:android:bbd49d97489f37e2",
+        "android_client_info": {
+          "package_name": "chat.foundtruck.com.br.foundtruckchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770678261439-gq4j19nfi1onc3l0uts2juher60qdg32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "chat.foundtruck.com.br.foundtruckchat",
+            "certificate_hash": "08c96f0f6ae42f46e60c7d821db038766e6cf9f3"
+          }
+        },
+        {
+          "client_id": "770678261439-ern05qkl5gc0ltcjc7h46c8tfl2s8ug0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmgd141DxFYLUCR4PN7AWR71hm8EINYa0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770678261439-ern05qkl5gc0ltcjc7h46c8tfl2s8ug0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

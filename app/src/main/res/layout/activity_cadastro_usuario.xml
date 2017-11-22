@@ -224,7 +224,8 @@
         android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="@+id/v_16dp_start"
         app:layout_constraintRight_toLeftOf="@+id/v_16dp_end"
-        app:layout_constraintTop_toTopOf="@+id/h_70" />
+        app:layout_constraintTop_toTopOf="@+id/h_70"
+        android:onClick="cadastrarUsuario"/>
 
     <TextView
         android:id="@+id/text_cadastro"

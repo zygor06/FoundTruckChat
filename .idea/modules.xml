@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FoundTruckChat.iml" filepath="$PROJECT_DIR$/.idea/FoundTruckChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FoundTruckChat.iml" filepath="$PROJECT_DIR$/FoundTruckChat.iml" />
+      <module fileurl="file://D:\Users\Gollum\Google Drive\Desv\Android\EstudoAndroid-master\FoundTruckChat\.idea\FoundTruckChat.iml" filepath="D:\Users\Gollum\Google Drive\Desv\Android\EstudoAndroid-master\FoundTruckChat\.idea\FoundTruckChat.iml" />
       <module fileurl="file://C:\Users\Smaug\Downloads\desv\Android\Parse-Projeto-1.13.0\FoundTruckChat\FoundTruckChat.iml" filepath="C:\Users\Smaug\Downloads\desv\Android\Parse-Projeto-1.13.0\FoundTruckChat\FoundTruckChat.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

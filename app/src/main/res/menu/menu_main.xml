@@ -29,6 +29,6 @@
         android:title="add"
         android:orderInCategory="400"
         app:showAsAction="ifRoom"
-        android:icon="@drawable/add_contact"/>
+        android:icon="@drawable/ic_person_add"/>
 
 </menu>

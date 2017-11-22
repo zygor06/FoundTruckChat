@@ -8,11 +8,13 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -34,6 +36,9 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText editEmail;
     private EditText editSenha;
+    private Button btnCadastro;
+    private Button btnLogin;
+
     private Usuario usuario;
     private FirebaseAuth authenticator;
     private Preferencias preferencias;
@@ -45,15 +50,11 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         preferencias = new Preferencias(this);
 
+        //Verifica se o usuário já realizou login anteriormente, e salva os dados
         verificarUsuarioLogado();
 
-        //Verifica se o usuário já realizou login anteriormente, e salva os dados
-
-
-
-        editEmail = (EditText) findViewById(R.id.editEmail);
-        editSenha = (EditText) findViewById(R.id.editSenha);
-
+        editEmail = findViewById(R.id.editEmail);
+        editSenha = findViewById(R.id.editSenha);
     }
 
     public void logar(View view){
